@@ -1,0 +1,8 @@
+show tables // tables 을 보여준다
+
+SELECT * FROM ~~~ // 선택 후 모든 범위를 가져온다
+where // select 쿼리문으로 가져올 데이터에 조건을 건다.
+
+SELECT * FROM orders
+where payment_method = 'CARD'
+orders 테이블 payment_method 에서 카드만 검색한다
